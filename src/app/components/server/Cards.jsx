@@ -7,18 +7,18 @@ const Cards = () => {
     const cards = [
         {
             icon: <IoNewspaperOutline />,
-            title: 'Corporis voluptates sit',
-            desc: 'Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip'
+            title: 'Latest Health News',
+            desc: 'Stay informed with our hospital updates and breakthroughs.'
         },
         {
             icon: <BiCubeAlt />,
-            title: 'Ullamco laboris ladore pan',
-            desc: 'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt'
+            title: '3D Health Vision',
+            desc: 'Experience comprehensive, personalized healthcare in a new, innovative dimension.'
         },
         {
             icon: <BiImages />,
-            title: 'Labore consequatur',
-            desc: 'Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere'
+            title: 'BiImages',
+            desc: ' Visualizing Health with Advanced Medical Imaging. Experience clarity in diagnostics and treatment.'
         },
     ]
 
@@ -30,8 +30,7 @@ const Cards = () => {
                         Why Choose Medilab?
                     </div>
                     <div>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit Asperiores dolores sed et. Tenetur quia eos. Autem tempore quibusdam vel necessitatibus optio ad corporis.
-                    </div>
+                    Choose our hospital for personalized, compassionate healthcare. Our advanced facilities and dedicated staff prioritize your health, offering comprehensive services and innovative treatments. Experience the difference with us, where your wellbeing is our mission.                    </div>
                     <div className='flex justify-center w-full'>
                         <button className='bg-[#4792D6] py-2 px-8 rounded-full hover:text-[#1977cc] hover:bg-white transition-all duration-500 ease-in-out flex items-center gap-1'>
                             <span>

@@ -11,19 +11,18 @@ const about = () => {
             <div className="flex flex-col gap-10 p-12 col-span-3">
                 <div className="flex flex-col gap-4">
                     <h1 className="font-extrabold text-[28px] text-[#2c4964]">
-                        Enim quis est voluptatibus aliquid consequatur fugiat
+                    “Committed to Your Health: Our Hospital’s Journey”
                     </h1>
                     <p>
-                        Choose our hospital for personalized, compassionate healthcare. Our advanced facilities and dedicated staff prioritize your health, offering comprehensive services and innovative treatments. Experience the difference with us, where your wellbeing is our mission
-                    </p>
+                    We are a healthcare institution dedicated to providing top-notch medical services in a compassionate environment. Our team of experienced professionals is committed to promoting health and well-being. We strive to deliver personalized care, ensuring every patient feels valued and cared for. Your health is our mission.                    </p>
                 </div>
                 <div className="flex justify-start items-center gap-5 group/fingerprint">
                     <div className="flex items-center justify-center p-4 border-2 border-[#8dc2f1] text-[#1977cc] group-hover/fingerprint:bg-[#1977cc] group-hover/fingerprint:text-white group-hover/fingerprint:border-[#1977cc] transition-all duration-500 ease-in-out text-3xl rounded-full">
                         <BiFingerprint />
                     </div>
                     <div className="flex flex-col gap-2">
-                        <div className="text-[#343a40] font-bold">Lorem, ipsum.</div>
-                        <div>Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, laudantium?</div>
+                        <div className="text-[#343a40] font-bold">Secure Care:</div>
+                        <div>Your Health Data, Safeguarded with Us. Trust in our commitment to privacy and data protection.</div>
                     </div>
                 </div>
                 <div className="flex justify-start items-center gap-5 group/fingerprint">
@@ -31,8 +30,8 @@ const about = () => {
                         <GoGift />
                     </div>
                     <div className="flex flex-col gap-2">
-                        <div className="text-[#343a40] font-bold">Lorem, ipsum.</div>
-                        <div>Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, laudantium?</div>
+                        <div className="text-[#343a40] font-bold">Gift of Health:</div>
+                        <div>Experience our care packages tailored to your wellness journey. Your health, our priority.</div>
                     </div>
                 </div>
                 <div className="flex justify-start items-center gap-5 group/fingerprint">
@@ -40,8 +39,8 @@ const about = () => {
                         <SiElectron />
                     </div>
                     <div className="flex flex-col gap-2">
-                        <div className="text-[#343a40] font-bold">Lorem, ipsum.</div>
-                        <div>Lorem, ipsum. Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, laudantium?</div>
+                        <div className="text-[#343a40] font-bold">Atomic Precision:</div>
+                        <div>Harnessing advanced technology for accurate diagnostics and treatments. Your health, our science.</div>
                     </div>
                 </div>
             </div>
