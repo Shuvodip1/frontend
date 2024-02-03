@@ -28,11 +28,7 @@ const Doctors = () => {
                     <div>
                         <h2 className="text-1xl font-semibold">Walter White</h2>
                         <p className="my-2">Chief Medical Officer</p>
-                        <p>
-                            <small>
-                                Explicabo voluptatem mollitia et repellat qui dolorum quasi
-                            </small>
-                        </p>
+                        
                         <div className="mt-5 flex gap-5">
                             <FaTwitter
                                 size={35}
@@ -62,13 +58,9 @@ const Doctors = () => {
                         alt="Picture of the author"
                     />
                     <div>
-                        <h2 className="text-1xl font-semibold">Walter White</h2>
+                        <h2 className="text-1xl font-semibold">Dr. Isabella Müller</h2>
                         <p className="my-2">Chief Medical Officer</p>
-                        <p>
-                            <small>
-                                Explicabo voluptatem mollitia et repellat qui dolorum quasi
-                            </small>
-                        </p>
+                        
                         <div className="mt-5 flex gap-5">
                             <FaTwitter
                                 size={35}
@@ -98,13 +90,9 @@ const Doctors = () => {
                         alt="Picture of the author"
                     />
                     <div>
-                        <h2 className="text-1xl font-semibold">Walter White</h2>
+                        <h2 className="text-1xl font-semibold">Dr. Lucas Lefevre</h2>
                         <p className="my-2">Chief Medical Officer</p>
-                        <p>
-                            <small>
-                                Explicabo voluptatem mollitia et repellat qui dolorum quasi
-                            </small>
-                        </p>
+                        
                         <div className="mt-5 flex gap-5">
                             <FaTwitter
                                 size={35}
@@ -134,13 +122,9 @@ const Doctors = () => {
                         alt="Picture of the author"
                     />
                     <div>
-                        <h2 className="text-1xl font-semibold">Walter White</h2>
+                        <h2 className="text-1xl font-semibold">Dr. Sofia Rossi</h2>
                         <p className="my-2">Chief Medical Officer</p>
-                        <p>
-                            <small>
-                                Explicabo voluptatem mollitia et repellat qui dolorum quasi
-                            </small>
-                        </p>
+                        
                         <div className="mt-5 flex gap-5">
                             <FaTwitter
                                 size={35}
