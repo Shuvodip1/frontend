@@ -16,8 +16,7 @@ const Appointment = () => {
                         </div>
                     </div>
                     <div className='text-center'>
-                        Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
-                    </div>
+                    Book your appointment with ease. Our user-friendly system allows you to schedule visits with our experienced doctors at your convenience. We value your time and health. Start your journey towards better health with us today. Your wellness is just an appointment away.                    </div>
                 </div>
                 <form className='grid grid-cols-3 w-full gap-6'>
                     <input type='text' className='h-11 p-[10px] border border-[#dee2e6] text-sm text-[#212529] placeholder:text-[#212529]' placeholder='Your Name' />

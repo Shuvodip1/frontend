@@ -14,10 +14,7 @@ const Doctors = () => {
                 <u>Doctors</u>
             </h1>
             <p className="w-2/3 text-center mx-auto my-8">
-                Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex
-                aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos
-                quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat
-                sit in iste officiis commodi quidem hic quas.
+            Meet our team of dedicated doctors, each an expert in their field. They bring a wealth of knowledge and experience, providing top-notch medical care. Our doctors are committed to patient well-being, offering personalized care and treatment. Your health is in good hands with us
             </p>
             <div className="flex flex-wrap justify-center gap-10">
                 <div className="w-[636px] h-[233px] shadow-md flex justify-evenly items-center group cursor-pointer">

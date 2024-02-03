@@ -18,8 +18,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='text-center'>
-                    Rahul Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
-                </div>
+                Reach out to us for any queries or support. We’re here to help. Contact us via phone, email, or visit us at our location. Your feedback and questions are important to us. Let’s connect and ensure your health and well-being                </div>
             </div>
             <div className='grid grid-cols-3 w-full'>
                 <div className='flex flex-col justify-center gap-10'>
@@ -29,7 +28,7 @@ const Contact = () => {
                         </div>
                         <div className='flex flex-col justify-start'>
                             <div className='text-[#2c4964] font-semibold text-xl'>Location:</div>
-                            <div className='text-sm text-[#4b7dab]'>A108 Adam Street, New York, NY 535022</div>
+                            <div className='text-sm text-[#4b7dab]'>739/10 Kalyangarh,Ashoknagar,WB 743272</div>
                         </div>
                     </div>
                     <div className='flex items-center gap-4 group/email'>
@@ -38,7 +37,7 @@ const Contact = () => {
                         </div>
                         <div className='flex flex-col justify-start'>
                             <div className='text-[#2c4964] font-semibold text-xl'>Email:</div>
-                            <div className='text-sm text-[#4b7dab]'>info@example.com</div>
+                            <div className='text-sm text-[#4b7dab]'>medilab@gmail.com</div>
                         </div>
                     </div>
                     <div className='flex items-center gap-4 group/call'>
@@ -47,7 +46,7 @@ const Contact = () => {
                         </div>
                         <div className='flex flex-col justify-start'>
                             <div className='text-[#2c4964] font-semibold text-xl'>Call:</div>
-                            <div className='text-sm text-[#4b7dab]'>+1 5589 55488 55s</div>
+                            <div className='text-sm text-[#4b7dab]'>+91 70740 81267</div>
                         </div>
                     </div>
                 </div>
@@ -60,7 +59,7 @@ const Contact = () => {
                     </div>
                     <div className='flex items-center justify-center'>
                         <button className="bg-[#1977cc] py-3 px-8 text-white text-sm rounded-full">
-                            Make an Appointment
+                            Contact Us
                         </button>
                     </div>
                 </form>

@@ -18,13 +18,13 @@ const Footer = () => {
                                 Medilab
                             </h2>
                             <p>
-                                A108 Adam Street <br />
-                                New York, NY 535022 <br />
+                                739/10 Kalyangarh <br />
+                                Ashoknagar, wB 743272 <br />
                                 United States
                             </p>
                             <p className="mt-8">
-                                <b>Phone:</b> +1 5589 55488 55 <br />
-                                <b>Email:</b> info@example.com
+                                <b>Phone:</b> +91 70741 81267 <br />
+                                <b>Email:</b> medilab@gmail.com
                             </p>
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -75,7 +75,7 @@ const Footer = () => {
                                         htmlFor="footer-field"
                                         className="leading-7 text-sm text-gray-600"
                                     >
-                                        Placeholder
+                                        Email
                                     </label>
                                     <input
                                         type="text"
@@ -85,32 +85,14 @@ const Footer = () => {
                                     />
                                 </div>
                                 <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-[#298ce5] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
-                                    Button
+                                    Subscribe
                                 </button>
                             </div>
-                            <p className="text-gray-500 text-sm mt-2 md:text-left text-center">
-                                Bitters chicharrones fanny pack
-                                <br className="lg:block hidden" />
-                                waistcoat green juice
-                            </p>
                         </div>
                     </div>
                 </div>
                 <div className="px-5 py-6 bg-[#f1f7fd] flex items-center justify-between">
-                    <p className="">
-                        <a className="">
-                            <span className="">Medilab</span>
-                        </a>
-                        © 2020 Medilab —
-                        <a
-                            href="https://twitter.com/knyttneve"
-                            rel="noopener noreferrer"
-                            className="text-gray-600 ml-1"
-                            target="_blank"
-                        >
-                            @knyttneve
-                        </a>
-                    </p>
+                   
                     <span className="flex items-center justify-end gap-4">
                         <a className="bg-[#1977cc] text-white p-2 rounded-full text-lg">
                             <FaTwitter />

@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 const Department = () => {
     return (
-        <section className='container flex flex-col items-center justify-center gap-[30px]'id='departments'>
+        <section className='container flex flex-col items-center justify-center gap-[30px]' id='departments'>
             <div className='flex flex-col items-center justify-center gap-5'>
                 <div className='text-[#2c4964] text-3xl font-bold' id='title'>
                     <div className='mb-5'>
@@ -17,8 +17,7 @@ const Department = () => {
                     </div>
                 </div>
                 <div className='text-center'>
-                    Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.
-                </div>
+                    Explore our diverse departments, each dedicated to specific areas of healthcare. Our specialized teams of experienced professionals are committed to providing comprehensive care. From cardiology to neurology, we cover a wide range of medical fields. Discover the department that suits your healthcare needs                </div>
             </div>
             <Tabs defaultValue="cardiology" className="flex flex-col items-center justify-center">
                 <TabsList>
@@ -35,11 +34,8 @@ const Department = () => {
                                 Cardiology
                             </h1>
                             <div className="flex flex-col gap-5">
-                                <p className='text-[#777777] italic'>
-                                    Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka
-                                </p>
                                 <p>
-                                    Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero
+                                    Our Cardiology Department is at the forefront of heart health. With a team of dedicated cardiologists, we provide comprehensive cardiac care, from diagnosis to treatment. We utilize advanced technology for precise diagnostics and innovative treatments. Our patient-centric approach ensures personalized care, prioritizing your heart health. Experience exceptional cardiac care with us.
                                 </p>
                             </div>
 
@@ -51,14 +47,11 @@ const Department = () => {
                     <div className='container py-5 flex items-center gap-4'>
                         <div className="flex flex-col justify-center items-start gap-5">
                             <h1 className="text-2xl font-semibold text-[#2c4964]">
-                                Et blanditiis nemo veritatis excepturi
+                                Neurology
                             </h1>
                             <div className="flex flex-col gap-5">
-                                <p className='text-[#777777] italic'>
-                                    Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka
-                                </p>
                                 <p>
-                                    Ea ipsum voluptatem consequatur quis est. Illum error ullam omnis quia et reiciendis sunt sunt est. Non aliquid repellendus itaque accusamus eius et velit ipsa voluptates. Optio nesciunt eaque beatae accusamus lerode pakto madirna desera vafle de nideran pal
+                                    Our Neurology Department is dedicated to providing comprehensive neurological care. Our team of expert neurologists specializes in diagnosing and treating a wide range of neurological disorders. We utilize state-of-the-art technology and innovative treatment approaches to ensure the best possible outcomes. Our patient-centered approach ensures personalized care, prioritizing your neurological health. Experience exceptional neurological care with us.
                                 </p>
                             </div>
 
@@ -70,14 +63,11 @@ const Department = () => {
                     <div className='container py-5 flex items-center gap-4'>
                         <div className="flex flex-col justify-center items-start gap-5">
                             <h1 className="text-2xl font-semibold text-[#2c4964]">
-                                Impedit facilis occaecati odio neque aperiam sit
-                            </h1>
+                                Hepatology                            </h1>
                             <div className="flex flex-col gap-5">
-                                <p className='text-[#777777] italic'>
-                                    Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka
-                                </p>
+
                                 <p>
-                                    Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero
+                                    Our Hepatology Department is dedicated to the study and treatment of liver diseases. Our team of expert hepatologists specializes in diagnosing and treating a wide range of liver conditions, including hepatitis, cirrhosis, and liver cancer. We utilize advanced diagnostic tools and innovative treatment approaches to ensure the best possible outcomes. Our patient-centered approach ensures personalized care, prioritizing your liver health. Experience exceptional hepatology care with us.
                                 </p>
                             </div>
 
@@ -89,14 +79,12 @@ const Department = () => {
                     <div className='container py-5 flex items-center gap-4'>
                         <div className="flex flex-col justify-center items-start gap-5">
                             <h1 className="text-2xl font-semibold text-[#2c4964]">
-                                Cardiology
+                            Pediatrics
                             </h1>
                             <div className="flex flex-col gap-5">
-                                <p className='text-[#777777] italic'>
-                                    Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka
-                                </p>
+
                                 <p>
-                                    Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero
+                                Our Pediatrics Department is dedicated to providing comprehensive healthcare for children. Our team of pediatricians specializes in the physical, emotional, and developmental health of children from birth to adolescence. We offer a child-friendly environment and a patient-centered approach, ensuring personalized care for our young patients. Our goal is to work with parents to maintain the health and well-being of their children. Experience exceptional pediatric care with us.
                                 </p>
                             </div>
 
@@ -108,15 +96,12 @@ const Department = () => {
                     <div className='container py-5 flex items-center gap-4'>
                         <div className="flex flex-col justify-center items-start gap-5">
                             <h1 className="text-2xl font-semibold text-[#2c4964]">
-                                Cardiology
+                            Eyecare
                             </h1>
                             <div className="flex flex-col gap-5">
-                                <p className='text-[#777777] italic'>
-                                    Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka
-                                </p>
+                                
                                 <p>
-                                    Et nobis maiores eius. Voluptatibus ut enim blanditiis atque harum sint. Laborum eos ipsum ipsa odit magni. Incidunt hic ut molestiae aut qui. Est repellat minima eveniet eius et quis magni nihil. Consequatur dolorem quaerat quos qui similique accusamus nostrum rem vero
-                                </p>
+                                Our Eye Care Department is dedicated to providing comprehensive eye health services. Our team of ophthalmologists specializes in diagnosing and treating a wide range of eye conditions, from common vision problems to complex eye diseases. We utilize advanced diagnostic tools and innovative treatment approaches to ensure the best possible outcomes. Our patient-centered approach ensures personalized care, prioritizing your eye health. Experience exceptional eye care with us.                                </p>
                             </div>
 
                         </div>
