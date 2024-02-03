@@ -14,10 +14,7 @@ const about = () => {
                         Enim quis est voluptatibus aliquid consequatur fugiat
                     </h1>
                     <p>
-                        Esse voluptas cumque vel exercitationem. Reiciendis est hic accusamus.
-                        Non ipsam et sed minima temporibus laudantium. Soluta voluptate sed
-                        facere corporis dolores excepturi. Libero laboriosam sint et id nulla
-                        tenetur. Suscipit aut voluptate.
+                        Choose our hospital for personalized, compassionate healthcare. Our advanced facilities and dedicated staff prioritize your health, offering comprehensive services and innovative treatments. Experience the difference with us, where your wellbeing is our mission
                     </p>
                 </div>
                 <div className="flex justify-start items-center gap-5 group/fingerprint">

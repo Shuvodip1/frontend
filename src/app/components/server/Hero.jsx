@@ -9,7 +9,7 @@ const Hero = () => {
                         WELCOME TO MEDILAB
                     </h1>
                     <p className="text-[#2c4964] text-2xl">
-                        We are team of talented designers making websites with Bootstrap
+                    Compassionate Care, Advanced Healing, Your Health is Our Mission.
                     </p>
                     <button className="bg-[#1977cc] py-3 px-9 mt-5 text-sm text-white rounded-full uppercase">
                         get started
