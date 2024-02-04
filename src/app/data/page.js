@@ -1,19 +1,186 @@
 import React from "react";
-const data = [
+const data =
+  [
     {
-      "Name": "Unity Pugh",
-      "Ext.": 9958,
-      "City": "Curicó",
-      "Start Date": "2005/02/11",
-      "Completion": "37%"
+      "SerialNumber": 1,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
     },
     {
-      "Name": "Theodore Duran",
-      "Ext.": 8971,
-      "City": "Dhanbad",
-      "Start Date": "1999/04/07",
-      "Completion": "97%"
-    }
+      "SerialNumber": 2,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 3,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 4,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 5,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 6,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 7,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 8,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 9,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 10,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 11,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 12,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 13,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 14,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 15,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 16,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 17,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 18,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 19,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
+    {
+      "SerialNumber": 20,
+      "Name": "Adnfjln",
+      "Email": "admin@admin.com",
+      "Phone": "0000000000",
+      "Time": "00:00-00:00",
+      "Departmment": "AAAAAAAAAAAAA",
+      "Doctor": "bbbbbbbbbbb"
+    },
   ];
   
 const page = () => {
@@ -46,15 +213,6 @@ const page = () => {
 
       <div className="pagetitle">
         <h1>Data Tables</h1>
-        <nav>
-          <ol className="breadcrumb">
-            <li className="breadcrumb-item">
-              <a href="index.html">Home</a>
-            </li>
-            <li className="breadcrumb-item">Tables</li>
-            <li className="breadcrumb-item active">Data</li>
-          </ol>
-        </nav>
       </div>
 
       <section class="section dashboard">
@@ -66,30 +224,15 @@ const page = () => {
             <div class="col-xxl-4 col-md-6">
               <div class="card info-card sales-card">
 
-                <div class="filter">
-                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <li class="dropdown-header text-start">
-                      <h6>Filter</h6>
-                    </li>
-
-                    <li><a class="dropdown-item" href="#">Today</a></li>
-                    <li><a class="dropdown-item" href="#">This Month</a></li>
-                    <li><a class="dropdown-item" href="#">This Year</a></li>
-                  </ul>
-                </div>
-
                 <div class="card-body">
-                  <h5 class="card-title">Sales <span>| Today</span></h5>
+                  <h5 class="card-title">Available Doctors<span>| Today</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-cart"></i>
+                      <i class="bi bi-people"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>145</h6>
-                      <span class="text-success small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">increase</span>
-
+                      <h6>76</h6>
                     </div>
                   </div>
                 </div>
@@ -100,30 +243,16 @@ const page = () => {
             <div class="col-xxl-4 col-md-6">
               <div class="card info-card revenue-card">
 
-                <div class="filter">
-                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <li class="dropdown-header text-start">
-                      <h6>Filter</h6>
-                    </li>
-
-                    <li><a class="dropdown-item" href="#">Today</a></li>
-                    <li><a class="dropdown-item" href="#">This Month</a></li>
-                    <li><a class="dropdown-item" href="#">This Year</a></li>
-                  </ul>
-                </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Revenue <span>| This Month</span></h5>
+                  <h5 class="card-title">Occupied Bed<span>| Today</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
-                      <i class="bi bi-currency-dollar"></i>
+                      <i class="bi bi-people"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>$3,264</h6>
-                      <span class="text-success small pt-1 fw-bold">8%</span> <span class="text-muted small pt-2 ps-1">increase</span>
-
+                      <h6>56</h6>
                     </div>
                   </div>
                 </div>
@@ -135,29 +264,16 @@ const page = () => {
 
               <div class="card info-card customers-card">
 
-                <div class="filter">
-                  <a class="icon" href="#" data-bs-toggle="dropdown"><i class="bi bi-three-dots"></i></a>
-                  <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
-                    <li class="dropdown-header text-start">
-                      <h6>Filter</h6>
-                    </li>
-
-                    <li><a class="dropdown-item" href="#">Today</a></li>
-                    <li><a class="dropdown-item" href="#">This Month</a></li>
-                    <li><a class="dropdown-item" href="#">This Year</a></li>
-                  </ul>
-                </div>
 
                 <div class="card-body">
-                  <h5 class="card-title">Customers <span>| This Year</span></h5>
+                  <h5 class="card-title">Vacant Bed<span>| Today</span></h5>
 
                   <div class="d-flex align-items-center">
                     <div class="card-icon rounded-circle d-flex align-items-center justify-content-center">
                       <i class="bi bi-people"></i>
                     </div>
                     <div class="ps-3">
-                      <h6>1244</h6>
-                      <span class="text-danger small pt-1 fw-bold">12%</span> <span class="text-muted small pt-2 ps-1">decrease</span>
+                      <h6>44</h6>
 
                     </div>
                   </div>
@@ -180,47 +296,35 @@ const page = () => {
             <div className="card">
               <div className="card-body">
                 <h5 className="card-title">Datatables</h5>
-                <p>
-                  Add lightweight datatables to your project with using the{" "}
-                  <a
-                    href="https://github.com/fiduswriter/Simple-DataTables"
-                    target="_blank"
-                  >
-                    Simple DataTables
-                  </a>{" "}
-                  library. Just add <code>.datatable</code> class name to any
-                  table you wish to conver to a datatable. Check for{" "}
-                  <a
-                    href="https://fiduswriter.github.io/simple-datatables/demos/"
-                    target="_blank"
-                  >
-                    more examples
-                  </a>
-                  .
-                </p>
-
+                
                 <table className="table datatable">
                   <thead>
                     <tr>
                       <th>
-                        <b>N</b>ame
+                        Id
                       </th>
-                      <th>Ext.</th>
-                      <th>City</th>
-                      <th data-type="date" data-format="YYYY/DD/MM">
-                        Start Date
+                      <th>
+                        <b>Name</b>
                       </th>
-                      <th>Completion</th>
+                      <th>Email</th>
+                      <th>Phone</th>
+                      <th>
+                        Time
+                      </th>
+                      <th>Departmment</th>
+                      <th>Doctor</th>
                     </tr>
                   </thead>
 {
                     data.map((item, index) => {
                     return <tr key={index}>
+                      <td>{item.SerialNumber}</td>
                       <td>{item.Name}</td>
-                      <td>{item["Ext."]}</td>
-                      <td>{item.City}</td>
-                      <td>{item["Start Date"]}</td>
-                      <td>{item.Completion}</td>
+                      <td>{item.Email}</td>
+                      <td>{item.Phone}</td>
+                      <td>{item.Time}</td>
+                      <td>{item.Departmment}</td>
+                      <td>{item.Doctor}</td>
                     </tr>
                     })
                     }
