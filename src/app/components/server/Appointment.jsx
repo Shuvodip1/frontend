@@ -79,7 +79,7 @@ const Appointment = () => {
           ></textarea>
           <CheckboxComponent text={'Book A Bed'} />
           <div className="col-span-3 flex items-center justify-center">
-            <button className="bg-[#1977cc] py-3 px-8 text-white text-sm rounded-full">
+            <button className="bg-[#dc4797] py-3 px-8 text-white text-sm rounded-full">
               Make an Appointment
             </button>
           </div>

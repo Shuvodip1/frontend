@@ -13,7 +13,8 @@ const Navbar = () => {
         <nav className="top-0 fixed w-screen bg-white shadow-lg z-20">
             <div className="container mx-auto flex flex-wrap py-5 flex-col md:flex-row items-center justify-between">
                 <Link href={``} className="flex items-center font-extrabold text-[#2c4964] mb-4 md:mb-0 text-3xl">
-                    Medilab
+                HealthNest
+
                 </Link>
                 <div className="flex flex-wrap items-center justify-center gap-2">
                     {
@@ -25,7 +26,7 @@ const Navbar = () => {
                             </li>
                         )
                     }
-                    <Link href={'/#appoinment'} className="bg-[#1977cc] py-2 px-6 text-white text-sm rounded-full">
+                    <Link href={'/#appoinment'} className="bg-[#dc4797] py-2 px-6 text-white text-sm rounded-full">
                         Make an Appointment
                     </Link>
                 </div>

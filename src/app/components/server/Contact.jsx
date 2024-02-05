@@ -37,7 +37,7 @@ const Contact = () => {
                         </div>
                         <div className='flex flex-col justify-start'>
                             <div className='text-[#2c4964] font-semibold text-xl'>Email:</div>
-                            <div className='text-sm text-[#4b7dab]'>medilab@gmail.com</div>
+                            <div className='text-sm text-[#4b7dab]'>healthnest@gmail.com</div>
                         </div>
                     </div>
                     <div className='flex items-center gap-4 group/call'>
@@ -58,7 +58,7 @@ const Contact = () => {
                         <textarea className='col-span-2 border rounded-md border-[#dee2e6] p-3 focus:outline-none text-sm' rows={5} placeholder='Message'></textarea>
                     </div>
                     <div className='flex items-center justify-center'>
-                        <button className="bg-[#1977cc] py-3 px-8 text-white text-sm rounded-full">
+                        <button className="bg-[#dc4797] py-3 px-8 text-white text-sm rounded-full">
                             Contact Us
                         </button>
                     </div>

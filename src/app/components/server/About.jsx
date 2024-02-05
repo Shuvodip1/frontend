@@ -17,7 +17,7 @@ const about = () => {
                     We are a healthcare institution dedicated to providing top-notch medical services in a compassionate environment. Our team of experienced professionals is committed to promoting health and well-being. We strive to deliver personalized care, ensuring every patient feels valued and cared for. Your health is our mission.                    </p>
                 </div>
                 <div className="flex justify-start items-center gap-5 group/fingerprint">
-                    <div className="flex items-center justify-center p-4 border-2 border-[#8dc2f1] text-[#1977cc] group-hover/fingerprint:bg-[#1977cc] group-hover/fingerprint:text-white group-hover/fingerprint:border-[#1977cc] transition-all duration-500 ease-in-out text-3xl rounded-full">
+                    <div className="flex items-center justify-center p-4 border-2 border-[#d54949] text-[#d54949] group-hover/fingerprint:bg-[#1977cc] group-hover/fingerprint:text-white group-hover/fingerprint:border-[#1977cc] transition-all duration-500 ease-in-out text-3xl rounded-full">
                         <BiFingerprint />
                     </div>
                     <div className="flex flex-col gap-2">
@@ -26,7 +26,7 @@ const about = () => {
                     </div>
                 </div>
                 <div className="flex justify-start items-center gap-5 group/fingerprint">
-                    <div className="flex items-center justify-center p-4 border-2 border-[#8dc2f1] text-[#1977cc] group-hover/fingerprint:bg-[#1977cc] group-hover/fingerprint:text-white group-hover/fingerprint:border-[#1977cc] transition-all duration-500 ease-in-out text-3xl rounded-full">
+                    <div className="flex items-center justify-center p-4 border-2 border-[#d54949] text-[#d54949] group-hover/fingerprint:bg-[#1977cc] group-hover/fingerprint:text-white group-hover/fingerprint:border-[#1977cc] transition-all duration-500 ease-in-out text-3xl rounded-full">
                         <GoGift />
                     </div>
                     <div className="flex flex-col gap-2">
@@ -35,7 +35,7 @@ const about = () => {
                     </div>
                 </div>
                 <div className="flex justify-start items-center gap-5 group/fingerprint">
-                    <div className="flex items-center justify-center p-4 border-2 border-[#8dc2f1] text-[#1977cc] group-hover/fingerprint:bg-[#1977cc] group-hover/fingerprint:text-white group-hover/fingerprint:border-[#1977cc] transition-all duration-500 ease-in-out text-3xl rounded-full">
+                    <div className="flex items-center justify-center p-4 border-2 border-[#d54949] text-[#d54949] group-hover/fingerprint:bg-[#1977cc] group-hover/fingerprint:text-white group-hover/fingerprint:border-[#1977cc] transition-all duration-500 ease-in-out text-3xl rounded-full">
                         <SiElectron />
                     </div>
                     <div className="flex flex-col gap-2">

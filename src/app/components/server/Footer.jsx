@@ -15,16 +15,16 @@ const Footer = () => {
                     <div className="flex flex-wrap md:text-left text-center order-first">
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4 text-sm">
                             <h2 className="title-font font-medium text-[#444444] tracking-widest text-3xl mb-3">
-                                Medilab
+                            HealthNest
                             </h2>
                             <p>
                                 739/10 Kalyangarh <br />
                                 Ashoknagar, wB 743272 <br />
-                                United States
+                                India
                             </p>
                             <p className="mt-8">
                                 <b>Phone:</b> +91 70741 81267 <br />
-                                <b>Email:</b> medilab@gmail.com
+                                <b>Email:</b> healthnest@gmail.com
                             </p>
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 w-full px-4">
@@ -84,7 +84,7 @@ const Footer = () => {
                                         className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:bg-transparent focus:ring-2 focus:ring-indigo-200 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                                     />
                                 </div>
-                                <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-[#298ce5] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
+                                <button className="lg:mt-2 xl:mt-0 flex-shrink-0 inline-flex text-white bg-[#2c4964] border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded">
                                     Subscribe
                                 </button>
                             </div>
