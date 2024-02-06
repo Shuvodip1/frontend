@@ -1,7 +1,7 @@
 "use client"
 import React from "react";
 
-const page = () => {
+const Page = () => {
     const [data, setData] = React.useState([]);
     const [bed, setBed] = React.useState(0)
     const [loading, setLoading] = React.useState(true)
@@ -145,4 +145,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default Page;
