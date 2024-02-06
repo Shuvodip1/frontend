@@ -9,13 +9,21 @@ import {
 
 const Doctors = () => {
     return (
-        <section className="my-8" id="doctors">
-            <h1 className="mt-16 text-center text-5xl">
-                <u>Doctors</u>
-            </h1>
-            <p className="w-2/3 text-center mx-auto my-8">
-            Meet our team of dedicated doctors, each an expert in their field. They bring a wealth of knowledge and experience, providing top-notch medical care. Our doctors are committed to patient well-being, offering personalized care and treatment. Your health is in good hands with us
-            </p>
+        <section className='container flex flex-col items-center justify-center gap-[30px]' id="doctors">
+            <div className='flex flex-col items-center justify-center gap-5'>
+                <div className='text-[#2c4964] text-3xl font-bold' id='title'>
+                    <div className='mb-5'>
+                        Contact
+                    </div>
+                    <div className='flex items-center justify-center'>
+                        <div className='h-[1px] w-[120px] bg-[#ddd] flex items-center justify-center'>
+                            <div className='h-[3px] w-[40px] bg-[#1977cc]'></div>
+                        </div>
+                    </div>
+                </div>
+                <div className='text-center'>
+                    Reach out to us for any queries or support. We’re here to help. Contact us via phone, email, or visit us at our location. Your feedback and questions are important to us. Let’s connect and ensure your health and well-being                </div>
+            </div>
             <div className="flex flex-wrap justify-center gap-10">
                 <div className="w-[636px] h-[233px] shadow-md flex justify-evenly items-center group cursor-pointer">
                     <Image
@@ -28,7 +36,7 @@ const Doctors = () => {
                     <div>
                         <h2 className="text-1xl font-semibold">Walter White</h2>
                         <p className="my-2">Chief Medical Officer</p>
-                        
+
                         <div className="mt-5 flex gap-5">
                             <FaTwitter
                                 size={35}
@@ -60,7 +68,7 @@ const Doctors = () => {
                     <div>
                         <h2 className="text-1xl font-semibold">Dr. Isabella Müller</h2>
                         <p className="my-2">Chief Medical Officer</p>
-                        
+
                         <div className="mt-5 flex gap-5">
                             <FaTwitter
                                 size={35}
@@ -92,7 +100,7 @@ const Doctors = () => {
                     <div>
                         <h2 className="text-1xl font-semibold">Dr. Lucas Lefevre</h2>
                         <p className="my-2">Chief Medical Officer</p>
-                        
+
                         <div className="mt-5 flex gap-5">
                             <FaTwitter
                                 size={35}
@@ -124,7 +132,7 @@ const Doctors = () => {
                     <div>
                         <h2 className="text-1xl font-semibold">Dr. Sofia Rossi</h2>
                         <p className="my-2">Chief Medical Officer</p>
-                        
+
                         <div className="mt-5 flex gap-5">
                             <FaTwitter
                                 size={35}

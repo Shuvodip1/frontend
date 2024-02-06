@@ -1,11 +1,32 @@
+"use client"
 import React from 'react'
 import { RiMapPinLine } from "react-icons/ri";
 import { BsEnvelope } from "react-icons/bs";
 import { CiMobile2 } from "react-icons/ci";
 
 const Contact = () => {
+    const handleSubmit = (e) => {
+        e.preventDefault();
+        const options = {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                "name": `${e.target[0].value}`,
+                "email": `${e.target[1].value}`,
+                "subject": `${e.target[2].value}`,
+                "message": `${e.target[3].value}`,
+            }),
+        }
+        fetch(`${process.env.BACKEND_URL}/api/contact/`, options)
+            .then(response => response.json())
+            .then(response => console.log(response))
+            .catch(err => console.error(err));
+    };
+
     return (
-        <section className='container flex flex-col items-center justify-center gap-[30px]'id='contact'>
+        <section className='container flex flex-col items-center justify-center gap-[30px]' id='contact'>
             <div className='flex flex-col items-center justify-center gap-5'>
                 <div className='text-[#2c4964] text-3xl font-bold' id='title'>
                     <div className='mb-5'>
@@ -18,7 +39,7 @@ const Contact = () => {
                     </div>
                 </div>
                 <div className='text-center'>
-                Reach out to us for any queries or support. We’re here to help. Contact us via phone, email, or visit us at our location. Your feedback and questions are important to us. Let’s connect and ensure your health and well-being                </div>
+                    Reach out to us for any queries or support. We’re here to help. Contact us via phone, email, or visit us at our location. Your feedback and questions are important to us. Let’s connect and ensure your health and well-being                </div>
             </div>
             <div className='grid grid-cols-3 w-full'>
                 <div className='flex flex-col justify-center gap-10'>
@@ -50,7 +71,7 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-                <form className='flex flex-col gap-3 col-span-2 '>
+                <form className='flex flex-col gap-3 col-span-2' onSubmit={(e) => handleSubmit(e)}>
                     <div className='grid grid-cols-2 gap-6'>
                         <input type='text' className='border rounded-md h-11 border-[#dee2e6] p-3 focus:outline-none text-sm' placeholder='Your Name' />
                         <input type='text' className='border rounded-md h-11 border-[#dee2e6] p-3 focus:outline-none text-sm' placeholder='Your Email' />
@@ -58,7 +79,7 @@ const Contact = () => {
                         <textarea className='col-span-2 border rounded-md border-[#dee2e6] p-3 focus:outline-none text-sm' rows={5} placeholder='Message'></textarea>
                     </div>
                     <div className='flex items-center justify-center'>
-                        <button className="bg-[#dc4797] py-3 px-8 text-white text-sm rounded-full">
+                        <button className="bg-[#dc4797] py-3 px-8 text-white text-sm rounded-full" type='submit'>
                             Contact Us
                         </button>
                     </div>
