@@ -85,7 +85,7 @@ body {
 }
 
 #hero {
-  background-image: url('https://firebasestorage.googleapis.com/v0/b/z-tube-53cf1.appspot.com/o/Doctor%20Profile%2Fhero-bg.jpg?alt=media&token=fcd0c54e-9633-4a33-a4ec-00acc15cb2a2');
+  background-image: url('/background.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
