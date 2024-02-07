@@ -5,7 +5,7 @@ import React from "react";
 const Appointment = () => {
     const [checked, setChecked] = React.useState(false);
 
-    const listOfDoctors = ["somath", "roni", "Shuvodip", "Rahul"];
+    const listOfDoctors = ["Dr. Ravi Patel", "Dr. Priya Sharma", "Dr. Anil Kumar","Dr. Sunita Gupta","Dr. Rajesh Mehta","Dr. Aarti Singh","Dr. Vijay Joshi","Dr. Meena Desai","Dr. Prakash Reddy","Dr. Geeta Nair"];
     const listOfDepartment = ["Cardiology", "Neurology", "Hepatology", "Pediatrics", "Eyecare",];
     const listoftime = ["10:00-10:30", "10:30-11:00", "11:00-10:30"];
 
@@ -90,8 +90,8 @@ const Appointment = () => {
                         })}
                     </select>
 
-                    <select className="h-11 p-[10px] border border-[#dee2e6] text-sm text-[#212529] placeholder:text-[#212529]">
-                        <option selected disabled>Select a Doctor</option>
+                    <select defaultValue={'none'} className="h-11 p-[10px] border border-[#dee2e6] text-sm text-[#212529] placeholder:text-[#212529]">
+                        <option value={'none'} disabled>Select a Doctor</option>
                         {listOfDoctors.map((doctors, index) => {
                             return (
                                 <option key={index} value={doctors}>

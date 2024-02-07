@@ -7,7 +7,7 @@ const Page = () => {
 
     const handleSubmit = (e) => {
         e.preventDefault();
-        (e.target[0].value == 'rahulcodepython@gmail.com' && e.target[1].value == 'admin1234567890') ? router.push('/data') : null
+        (e.target[0].value == 'admin@gmail.com' && e.target[1].value == 'admin') ? router.push('/data') : null
         console.log('submitted')
     }
 
